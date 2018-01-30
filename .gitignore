@@ -27,6 +27,7 @@ local.properties
 .project
 .classpath
 derby.log
+activemq-data/
 
 # External tool builders
 .externalToolBuilders/

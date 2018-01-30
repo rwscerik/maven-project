@@ -27,9 +27,9 @@ public class HelloMavenTest extends FunctionalTestCase {
 	   assertEquals("application/json", contentType);
 	 }
     
-    @Override
-    protected String getConfigFile() {
-        return "maven-project.xml";
+	@Override
+    protected String[] getConfigFiles() {
+        String[] files = {"maven-project.xml", "global.xml"};
+        return files;
     }
-
 }
